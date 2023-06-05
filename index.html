@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST ONLINE FOOD DELIVERY IN INDIA|  MyOnlineMeal.com.</title>
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="css/phone.css">
+    
+    <style>
+        #navbar{
+            display: flex;
+            position: absolute;
+            align-items: center;
+          
+        }
+        #logo{
+            margin: 10px 34px;
+        }
+        #logo img{
+          height: 59px;
+          margin: 3px 5px;
+        }
+       #navbar ul{
+            display: flex;
+            
+        }
+        #navbar ul li{
+            color: rgb(235, 211, 54);
+            list-style: none;
+            font-size: 1.3rem;
+
+        }
+        #navbar ul li a{
+            padding: 3px 22px;
+            display: block;
+            border-radius: 20px;
+            text-decoration: none;
+            color:whitesmoke;
+    
+        }
+        #navbar::before{
+            content: "";
+            position: absolute;
+            background-color: black;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        #navbar ul li a:hover{
+          color: black;
+          background-color: azure;
+        }
+        #home{
+            display: flex;
+            flex-direction: column;
+            padding: 3px 150px;
+            justify-content: center;
+            align-items: center;
+            height: 540px;
+
+        }
+        #home::before{
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 60%;
+            width: 100%;
+            background: url(https://images.unsplash.com/photo-1517433367423-c7e5b0f35086?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODR8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=700&q=60) no-repeat center center/ cover;
+            z-index: -1;
+        }
+        #contact{
+            position: relative;
+        }
+        #contact::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            opacity: 0.5;
+            z-index: -1;
+            background: url(https://img.freepik.com/premium-photo/contact-us-customer-support-hotline-people-connect-call-customer-support-email-address-live-chat-internet-wifi_36325-3415.jpg)no-repeat center center/cover;
+        }
+        footer{
+            background-color: black;
+            color: aliceblue;
+            font-size: 24px;
+        }
+        #contact-box input, #contact-box textarea{
+            
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 9px;
+            font-size: 1.1rem;
+           
+        }
+        #contact-box form{
+            width: 40%;
+
+        }
+        #contact-box label{
+            font-size: 1.3 rem;
+          
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #contact-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
+        .hprimary{
+            font-size: 2.3rem;
+            padding: 12px;
+            text-align:center ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        .hsecondary{
+            margin: 34px;
+            font-size: 2.3rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        
+        #home h1{
+            color: rgb(187, 59, 229);
+            text-align: center;
+            
+        }
+        #home p{
+            color: aliceblue;
+            text-align: center;
+            font-size: 1.5rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .btn{
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: burlywood;
+            color: azure;
+            margin: 17px 17px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .centre{
+            text-align: center;
+            font-size: 1.8rem;
+        }
+
+       
+        
+        
+        #services{
+            margin: 14px;
+            display: flex;
+        }
+        #services .box{
+             border: 2px solid rgb(27, 26, 26);
+             justify-content: center;
+             padding: 34px;
+             margin: 2px 55px;
+             border-radius: 23px;
+             background-color: rgb(247, 247, 243);
+             display: block;
+             margin-bottom: 20px;
+        }
+        #services.box img{
+            height: 150px;
+            
+        }
+        #client-section{
+           
+            position: relative;
+        }
+        #client-section ::before{
+            content: "";
+            position: absolute;
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_iraxPC_k9azAIglKuypl_OObuZfEyHtj6w&usqp=CAU);
+            z-index: -1;
+            opacity: 0.4;
+            height: 100%;
+            width: 100%;
+        }
+        #client{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #client-item{
+            padding: 34px;
+        }
+        
+            
+            
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="..\image\logo.png" alt="MyOnlineMeal.com" srcset="">
+        </div>
+    
+    <ul>
+        <li class="item"><a href="#">HOME</a></li>
+        <li class="item"><a href="#">ABOUT US</a></li>
+        <li class="item"><a href="#">CONTACT US</a></li>
+        <li class="item"><a href="#">SERVICES</a></li>
+    </ul>
+    </nav>
+    <section id="home">
+        <h1 class="primary">welcome to MyOnlineMeal</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima minus omnis quaerat quod ipsum perspiciatis soluta, itaque inventore autem maiores deserunt a velit fugit ut.  happy ending</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore excepturi harum tenetur exercitationem! Est nulla dolores eos voluptates</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="servicescontainer">
+        <h1 class="h-primary centre">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="../image/images.jpeg" alt="" srcset="">
+                <h2 class="h-secondary centre">Food Ordering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempore sunt alias quibusdam necessitatibus dignissimos commodi, ipsam rerum aliquam provident illum natus! Sapiente sint quidem minima nihil molestias? Corrupti eveniet accusamus ipsa quasi dict</p>
+    
+            </div>
+            <div class="box">
+                <img src="../image/img.jpeg" alt="" srcset="">
+                <h2 class="h-secondary centre">Food Catrering</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempore sunt alias quibusdam necessitatibus dignissimos commodi, ipsam rerum aliquam provident illum natus! Sapiente sint quidem minima nihil molestias? Corrupti eveniet accusamus ipsa quasi dicta?</p>
+    
+            </div>
+            <div class="box">
+                <img src="../image/delivery.jpeg" alt="" srcset="">
+                <h2 class="h-secondary centre">Food Delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempore sunt alias quibusdam necessitatibus dignissimos commodi, ipsam rerum aliquam provident illum natus! Sapiente sint quidem minima nihil molestias? Corrupti eveniet accusamus ipsa quasi dicta?</p>
+    
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary centre">Our Clients</h1>
+         <div id="client">
+            <div class="client-item">
+               <img src="../image/apple.png" alt="" srcset="">
+            </div>
+            <div class="client-item">
+                <img src="../image/google - Copy.jpeg" alt="" srcset="">
+             </div>
+             <div class="client-item">
+                <img src="../image/microsoft - Copy.jpeg" alt="" srcset="">
+             </div>
+             <div class="client-item">
+                <img src="../image/skype.jpeg" alt="" srcset="">
+             </div>
+         </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary centre"> contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="formgoup">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                </div>
+                <div class="formgoup">
+                    <label for="name ">email</label>
+                    <input type="email" name="name" id="name" placeholder="Enter Your mail">
+                </div>
+                <div class="formgoup">
+                    <label for="name">phone</label>
+                    <input type="phone" name="name" id="name" placeholder="Enter Your phone">
+                </div>
+                <div class="formgoup">
+                    <label for="name">message</label>
+                   <textarea name="message" id="message" cols="20" rows="5" ></textarea>
+                </div>
+            </form>     
+        </div>
+    </section>
+    <footer>
+       <div class="centre">
+        copyright &copy; www.MyOnlineMeal.com all rights reserved!
+       </div>
+        
+    </footer>
+</body>
+</html>
